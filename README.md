@@ -175,7 +175,7 @@ export default function Profile (props) {
 }
 ```
 
-Now import it into `App.js` and try plugging it in to your list of people. You'll have to scroll to the bottom, but you should see `PROFILE`.
+Now import it into `App.js` and try plugging it in _after_ your list of people. You'll have to scroll to the bottom, but you should see `PROFILE`.
 
 ## Step 8: Add routing
 
@@ -304,7 +304,7 @@ Search a string and click on a name! Or use keyboard controls (`TAB` and `ENTER`
 
 ## BONUS: Have the SynchedIn logo link back to "/"
 
-That's expected behavior. You may have to style you `<Link>` with something like `{{color: "white", textDecoration: "none" }}`.
+That's expected behavior. You may have to style your `<Link>` with something like `{{color: "white", textDecoration: "none" }}`.
 
 ## BONUS: Flesh out and style the search results
 
