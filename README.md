@@ -64,6 +64,8 @@ Fortunately, our back-end engineers are awesome. They've already built two endpo
 
 Amazing. Nice work, crew! We'll use these.
 
+><span style="color: red; font-weight: bold;">IMPORTANT:</span> If you're following these directions but working in an existing repository from parts 1 and 2, you'll need to grab the **updated `fakeFetch` function** from this repository. [You can find the code here.](https://raw.githubusercontent.com/jeremyrrose/synched-in-part-3b/main/src/utils/fakeFetch.js)
+
 ## Step 2: Layout
 
 We'll follow standard practice and place our search bar in the header, on the right side. First, let's create a new component for it in `components/Search.jsx`:
@@ -304,7 +306,7 @@ Search a string and click on a name! Or use keyboard controls (`TAB` and `ENTER`
 
 ## BONUS: Have the SynchedIn logo link back to "/"
 
-That's expected behavior. You may have to style your `<Link>` with something like `{{color: "white", textDecoration: "none" }}`.
+That's expected behavior, right? You may have to style your `<Link>` with something like `{{color: "white", textDecoration: "none" }}`.
 
 ## BONUS: Flesh out and style the search results
 
